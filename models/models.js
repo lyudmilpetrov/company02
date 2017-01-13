@@ -20,7 +20,7 @@ oM.config(['$routeProvider', '$locationProvider', function ($routeProvider, $loc
         controllerAs: 'C2'
     });
     $routeProvider.when('/charts', {
-        templateUrl: 'views/charts.html',
+        templateUrl: 'company02/views/charts.html',
         controller: 'oChartsCtrl',
         controllerAs: 'C3'
     });
