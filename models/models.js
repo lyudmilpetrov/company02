@@ -15,7 +15,7 @@ oM.config(['$routeProvider', '$locationProvider', function ($routeProvider, $loc
         controllerAs: 'C1'
     });
     $routeProvider.when('/maps', {
-        templateUrl: 'views/maps.html',
+        templateUrl: 'company02/views/maps.html',
         controller: 'oMapsCtrl',
         controllerAs: 'C2'
     });
