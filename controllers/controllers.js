@@ -131,7 +131,7 @@ let oChartsCtrl = oM.controller('oChartsCtrl', ['$scope', '$http', '$location', 
         iam.getMenu = function () {
             iam.changeView('/start');
         };
-        iam.url = 'company02/company02/views/chartsoi.html';
+        iam.url = 'company02/views/chartsoi.html';
         if (window.innerHeight >= 500){ iam.h = 100;}else{iam.h = window.innerHeight * 0.75;};
         iam.getView = function (e) {
             iam.url = 'views/' + e.target.id + '.html';
