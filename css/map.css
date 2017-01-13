@@ -1,0 +1,60 @@
+#map {
+  width: 100%;
+  height: 500px;
+  border: 2px groove;
+}
+p
+{
+border:hidden;
+color:#3c3e3e;
+font-size: 14px;
+}
+p1
+{
+color:#3c3e3e;
+font-size: 14px;
+}
+.extraInfo {display: none}
+
+div p1:hover {
+            /*display: block;*/
+            /*background: #3c3e3e;*/
+            /*border:groove;*/
+            font-weight:bold;
+            /*margin-left: 10%;*/
+            text-indent: each-line;
+            font-size: 13pt;
+            //opacity: .50;
+            /*color:#ffd800;*/
+            /*text-decoration: underline;*/
+            }
+
+h1 {color:#c17979;
+    font: message-box;
+
+      }
+h2 {color:#c17979;
+          font: oblique;
+          background:#e2e0b9;
+          vertical-align: middle;
+         text-align: center;
+}
+
+#info {
+    /*border:1px thin;*/
+    border-radius:25px;
+    background-color:#d8d6d6;
+    width: auto;
+    height: 280px;
+    /*box-shadow: 10px 10px 5px #888888;*/
+}
+
+#Moreinfo {
+    /*border:1px thin;*/
+    border-radius:25px;
+    background-color:#c17979;
+    width: auto;
+    height: 320px;
+    /*box-shadow: 10px 10px 5px #888888;*/
+}
+

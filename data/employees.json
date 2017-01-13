@@ -1,0 +1,42 @@
+﻿[
+  {
+    "id":  "Office1",
+    "name": "Church",
+    "address": "90 Church Street, New York, NY 10007, USA",
+    "position": [ 40.7125031, -74.0100727999999 ],
+    "annualRevenue": 5000000,
+    "employees": 80
+  },
+  {
+    "id": "Office2",
+    "name": "Broadway 1",
+    "address": "250 Broadway, New York, NY 10007, USA",
+    "position": [ 40.7129155, -74.0075145 ],
+    "annualRevenue": 3000000,
+    "employees": 90
+  },
+  {
+    "id": "Office3",
+    "name": "Broadway 2",
+    "address": "270 Broadway, New York, NY 10007, USA",
+    "position": [ 40.7141782, -74.0067972 ],
+    "annualRevenue": 8000000,
+    "employees": 100
+  },
+  {
+    "id": "Office4",
+    "name": "Surfside Gardens",
+    "address": "2950 West 31st Street, Brooklyn, NY 11224, USA",
+    "position": [ 40.5735383, -73.9971287 ],
+    "annualRevenue": 7000000,
+    "employees": 36
+  },
+  {
+    "id": "Office5",
+    "name": "Rutgers",
+    "address": "45 Pike Street, New York, NY 10002, USA",
+    "position": [ 40.71118, -73.991026 ],
+    "annualRevenue": 4500000,
+    "employees": 22
+  }
+]

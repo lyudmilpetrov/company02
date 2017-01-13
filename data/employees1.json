@@ -1,0 +1,10 @@
+﻿[
+  {
+    "id": "Office6",
+    "name": "Rutgers",
+    "address": "45 Pike Street, New York, NY 10002, USA",
+    "position": [ 40.71118, -73.991026 ],
+    "annualRevenue": 4109884,
+    "employees": 4
+  }
+]

@@ -1,0 +1,24 @@
+﻿<!--<link rel="styleSheet" href="css/metro.css" />-->
+<div ng-controller="oDetailsCtrl as C4" ng-cloak>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="tile grey" ng-click="C4.getMenu()">
+                    <h1 id="W4">Main menu</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="offset3 span6 centering">
+                <div class="row" ng-hide="C4.hideTable">
+                    <div class="ui-grid-top-panel" style="text-align: center;">Details</div>
+                    <div id="grid1" ui-grid="C4.gridOptions" class="grid"></div>
+                    <br />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

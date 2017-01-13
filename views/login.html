@@ -1,0 +1,28 @@
+﻿<div ng-controller="oMCtrl as C0" ng-hide="false" class="top-content">
+    <div id="remove" class="inner-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 text">
+                    <h1><strong>{{C0.w.viewLogin.title}}</strong></h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 form-box">
+                    <div class="form-bottom">
+                        <form role="form" action="" method="post" class="login-form">
+                            <div class="form-group">
+                                <label class="sr-only" for="form-username">Username</label>
+                                <input type="text" name="form-username" placeholder="{{C0.w.viewLogin.phU.f}}" class="form-username form-control" id="phU" autocomplete="Username" autofill="autofill" ng-model="User" ng-change="C0.TrackUser(User)" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="form-password">Password</label>
+                                <input type="password" name="form-password" placeholder="{{C0.w.viewLogin.phP.f}}" class="form-password form-control" id="phP" autocomplete="Password" autofill="autofill" required>
+                            </div>
+                            <button id="signIn" type="button" class="btn" ng-click="C0.signIn()" style="background-color:cornflowerblue">{{C0.w.viewLogin.signIn}}</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

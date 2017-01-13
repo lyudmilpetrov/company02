@@ -1,0 +1,28 @@
+{
+  "name": "company O2",
+  "version": "1.0.0",
+  "author": "Lyudmil Petrov",
+  "description": "Trial for a company's dashboard",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "browser-sync": "^2.13.0",
+    "del": "^2.2.2",
+    "google-closure-compiler": "^20160619.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^2.0.11",
+    "gulp-concat": "^2.6.0",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-csso": "^2.0.0",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-newer": "^1.2.0",
+    "gulp-processhtml": "^1.1.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-uglifyjs": "^0.6.2",
+    "jshint": "^2.9.4",
+    "run-sequence": "^1.2.2",
+    "socket.io": "^1.5.1"
+  }
+}

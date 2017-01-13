@@ -1,0 +1,22 @@
+﻿<!--<link rel="styleSheet" href="css/metro.css" />-->
+<!-- https://jtblin.github.io/angular-chart.js/ -->
+<div ng-controller="oChartsCtrl as C3" ng-cloak>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="tile grey" ng-click="C3.getMenu()">
+                    <h1 id="W3">Main menu</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <ul class="nav nav-pills nav-justified" ng-click="C3.getView($event)">
+        <li id="lichartsoi" class="active"><a id="chartsoi" data-toggle="tab">Open issues</a></li>
+        <li><a id="chartspc" data-toggle="tab">Paying customers</a></li>
+        <li><a id="chartsri" data-toggle="tab">Reported issues</a></li>
+    </ul>
+    <div class="slide-animate-container" style="height:800px;">
+        <div class="slide-animate" ng-include="C3.url"></div>
+    </div>
+</div>
