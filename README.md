@@ -11,7 +11,4 @@ it will load dependecies/packages from package.json
 ```javascript
 gulp start
 ```
-## IV. if you want to skip this steps just go to the index.html file and open it with desired browser
-## or just go to the live website below:
-### http://company02.azurewebsites.net/
-### https://company02.azurewebsites.net/
+
