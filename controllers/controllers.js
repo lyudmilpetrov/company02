@@ -3,7 +3,7 @@
     if (typeof iam.imgStretched === 'undefined') {
         iam.w = w;
         if ($route.current.loadedTemplateUrl === 'views/login.html') {
-            iam.imgStretched = $.backstretch('../img/1.jpg');
+            iam.imgStretched = $.backstretch('img/1.jpg');
         }
         else {
             $('.backstretch').remove();
