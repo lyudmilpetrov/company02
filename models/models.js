@@ -10,7 +10,7 @@ oM.config(['$routeProvider', '$locationProvider', function ($routeProvider, $loc
         controllerAs: 'C0'
     });
     $routeProvider.when('/start', {
-        templateUrl: 'views/start.html',
+        templateUrl: 'company02/views/start.html',
         controller: 'oStartCtrl',
         controllerAs: 'C1'
     });
