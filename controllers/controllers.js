@@ -134,7 +134,7 @@ let oChartsCtrl = oM.controller('oChartsCtrl', ['$scope', '$http', '$location', 
         iam.url = 'company02/views/chartsoi.html';
         if (window.innerHeight >= 500){ iam.h = 100;}else{iam.h = window.innerHeight * 0.75;};
         iam.getView = function (e) {
-            iam.url = 'views/' + e.target.id + '.html';
+            iam.url = 'company02/views/' + e.target.id + '.html';
         };
         ////////////////// Structuring the data
         iam.issues = caching.getCache('sessionStorage', 'issues');
